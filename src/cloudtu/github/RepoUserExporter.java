@@ -33,7 +33,7 @@ public class RepoUserExporter {
 				}
 				prop.setProperty(repoName, userIdsStr.toString());
 			}
-			prop.store(new FileOutputStream(RepoUserExporter.class.getResource("/").getPath() + "github_repo.properties"), null);
+			prop.store(new FileOutputStream(RepoUserExporter.class.getResource("/").getPath() + "repo_user.properties"), null);
 		}
 		catch (Exception e) {
 			logger.error(e.getMessage(), e);

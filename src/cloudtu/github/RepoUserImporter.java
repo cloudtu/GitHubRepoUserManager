@@ -16,7 +16,7 @@ import cloudtu.util.SysConfig;
 public class RepoUserImporter {
 	private static final Logger logger = Logger.getLogger(RepoUserImporter.class);
 	private static GitHubUtil gitHubUtil = new GitHubUtil(SysConfig.getString("AdminLoginId"), SysConfig.getString("AdminLoginPwd"));
-	private static ResourceBundle resourceBundle = ResourceBundle.getBundle("github_repo");
+	private static ResourceBundle resourceBundle = ResourceBundle.getBundle("repo_user");
 	
 	/**
 	 * @param args
