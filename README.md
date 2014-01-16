@@ -38,5 +38,5 @@ GitHubRepoUserManager
   *   修改 RepoUserExporter.bat(or RepoUserExporter.sh) 裡的環境變數
   *   執行 RepoUserExporter.bat(or RepoUserExporter.sh)
 5.   整批匯入工具 : 可以依據 `repo_user.properties` 檔案的設定，把所有設定匯入GitHub  
-  *   執行 RepoUserImporter.bat(or RepoUserImporter.sh) 裡的環境變數
+  *   修改 RepoUserImporter.bat(or RepoUserImporter.sh) 裡的環境變數
   *   執行 RepoUserImporter.bat(or RepoUserImporter.sh)
